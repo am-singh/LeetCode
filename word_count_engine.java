@@ -40,7 +40,6 @@ public class WordCounter {
                 }
             }
         }
-
         return res;
     }
 
