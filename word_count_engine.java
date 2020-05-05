@@ -48,7 +48,7 @@ public class WordCounter {
         String sample = "Arnold and Arnold, play cricket every evening. They like Arnold and Arnold. They hate cricket but play it.";
         String[][] result = countWords(sample);
         for (String[] pair : result) {
-            System.out.println(Arrays.toString(pair));
+            System.out.print(Arrays.toString(pair) + ", ");
         }
 
     }
